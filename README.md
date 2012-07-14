@@ -5,6 +5,12 @@ A simple ST2 plugin to help you preview your markdown files.
 
 Preview the current md file in your web browser.
 
+**Preinstallation :**
+
+```bash
+$ pip install misaka
+```
+
 **Installation :**
 
  - you should use [sublime package manager][3]
@@ -20,14 +26,14 @@ Preview the current md file in your web browser.
 
 **Uses :**
 
- - [python-markdown][0] for markdown parsing
+ - [misaka][0] for markdown parsing
  - [clownfart markown.css][1] for markdown styling
 
 The code is available at github [https://github.com/revolunet/sublimetext-markdown-preview][2]
 
 Licence MIT : [http://revolunet.mit-license.org][4]
 
- [0]: https://github.com/waylan/Python-Markdown
+ [0]: https://github.com/FSX/misaka
  [1]: https://github.com/clownfart/Markdown-CSS
  [2]: https://github.com/revolunet/sublimetext-markdown-preview
  [3]: http://wbond.net/sublime_packages/package_control
